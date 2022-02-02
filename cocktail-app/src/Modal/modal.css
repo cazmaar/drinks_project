@@ -1,0 +1,28 @@
+.calcbackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 2000px;
+}
+
+.minibg {
+  min-width: 40%;
+  min-height: 300px;
+  max-height: 50vh;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  position: fixed;
+  background-color: green;
+  border: 2px solid black;
+  overflow-y: scroll;
+  margin: 2px;
+  border-radius: 2rem;
+}
+
+.minibg::-webkit-scrollbar {
+  width: 0px;
+}
