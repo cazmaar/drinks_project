@@ -8,10 +8,9 @@ export default {
 };
 
 //👇 We create a “template” of how args map to rendering
-const Template = () => <InputField  />;
+const Template = (args) => <InputField {...args} />;
 
-export const FirstStory = {
-  args: {
-    //👇 The args you need here will depend on your component
-  }
+export const srimary = Template.bind({});
+srimary.args = {
+ handleData:{handleData:"ok"}
 };

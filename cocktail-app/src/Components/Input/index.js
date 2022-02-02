@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 import { Input, Space } from "antd";
 import axios from "axios";
@@ -6,10 +6,10 @@ import axios from "axios";
 const initialState = "";
 
 // This is an input component. Gets the cocktail to search for.
-function InputField() {
+function InputField({ handleData }) {
   // useRef to persist a value of false after each render in order to prevent useEffect from running on first render.
-  const firstUpdate = useRef(true); 
- const { Search } = Input;
+  const firstUpdate = useRef(true);
+  const { Search } = Input;
 
   // useState to set the state for each value you entered.
   const [cocktail, setCocktail] = useState(initialState);
@@ -28,7 +28,7 @@ function InputField() {
     setFetchedData(response.data.drinks);
   };
 
-// useEffect only runs when the value of cocktail changes.
+  // useEffect only runs when the value of cocktail changes.
   useEffect(() => {
     if (firstUpdate.current) {
       firstUpdate.current = false;
@@ -37,11 +37,15 @@ function InputField() {
     FetchApi();
   }, [cocktail]);
 
+  useEffect(() => {
+    handleData(fetcheddata);
+  }, [fetcheddata]);
+
   return (
     <div>
       <Space direction="vertical">
         <Search
-          placeholder=" search text"
+          placeholder=" search for a cocktail..."
           onSearch={onSearch}
           style={{ width: 200 }}
         />
