@@ -1,13 +1,15 @@
 import React from "react";
 import "./list.css";
-function List({ image, name, id, showModal }) {
+function List({ image, name, idNumber, showModal }) {
   return (
     <div>
       <li>
         <img
           className="image-p"
           onClick={() => {
-            showModal(true);
+            showModal(true,idNumber);
+            
+         
           }}
           src={image}
           alt={`${name} cocktails`}
@@ -15,7 +17,7 @@ function List({ image, name, id, showModal }) {
       </li>
       <li
         onClick={() => {
-          showModal(true);
+          showModal(true,idNumber);
         }}
       >
         {name}

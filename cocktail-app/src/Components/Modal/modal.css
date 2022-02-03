@@ -9,7 +9,7 @@
 }
 
 .minibg {
-  min-width: 40%;
+  min-width: 70%;
   min-height: 300px;
   max-height: 50vh;
   transform: translate(-50%, -50%);
@@ -21,8 +21,13 @@
   overflow-y: scroll;
   margin: 2px;
   border-radius: 2rem;
+ 
 }
 
 .minibg::-webkit-scrollbar {
   width: 0px;
+}
+
+.text-img{
+  display: flex;
 }

@@ -13,7 +13,7 @@ function DisplayList({ data, showModal}) {
             image={drink.strDrinkThumb}
             name={drink.strDrink}
             key={drink.idDrink}
-            id={drink.idDrink}
+            idNumber={drink.idDrink}
           />
         );
       })}
