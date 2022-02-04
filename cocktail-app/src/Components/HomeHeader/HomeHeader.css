@@ -1,0 +1,20 @@
+.HomeHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.img {
+  width: 5rem;
+  height: 6rem;
+}
+
+.Nav {
+  background: rgb(29, 1, 1);
+}
+
+.nameImage{
+ height: 5rem;
+}
+

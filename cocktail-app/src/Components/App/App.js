@@ -4,6 +4,7 @@ import DrinkModal from "../Modal";
 import DisplayList from "../DisplayList";
 import InputField from "../Input";
 import "./App.css";
+import HomeHeader from "../HomeHeader";
 
 function App() {
   const [data, setData] = useState([]);
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <div className="App">
+    <HomeHeader/>
       <InputField handleData={handleData} />
       <DisplayList data={data} showModal={showModal} />
       <DrinkModal modal={modal} showModal={showModal} data={data} id={id}/>

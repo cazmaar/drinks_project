@@ -4,7 +4,7 @@
   left: 0;
   z-index: 1;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   height: 2000px;
 }
 
@@ -16,7 +16,7 @@
   left: 50%;
   top: 50%;
   position: fixed;
-  background-color: green;
+  background: rgb(34, 4, 4);
   border: 2px solid black;
   overflow-y: scroll;
   margin: 2px;
@@ -28,6 +28,27 @@
   width: 0px;
 }
 
-.text-img{
+.text-img {
   display: flex;
+}
+
+.modalName,
+.modal-ingredients {
+  font-size: x-large;
+  font-weight: 500;
+  color: white;
+  margin-left: 3rem;
+}
+
+.ingredientSect {
+  text-align: center;
+  margin-left: 10rem;
+  margin-top: 5rem;
+}
+
+.modal-image {
+  margin-left: 8rem;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 10%;
 }

@@ -1,3 +1,31 @@
-.image-p{
- width: 15rem;
+.image-p {
+  width: 18rem;
+  margin-top: 2rem;
+}
+
+.drink_name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 2rem;
+}
+
+.welcome {
+  color: white;
+}
+
+.image-p {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.image-p:hover {
+  animation: card-animation 0.4s forwards;
+}
+
+@keyframes card-animation {
+  100% {
+    transform: scale(1.1);
+  }
 }

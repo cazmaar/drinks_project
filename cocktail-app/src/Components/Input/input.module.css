@@ -1,0 +1,15 @@
+.inputSearch {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  width: 70%;
+  margin-left: 15rem;
+  padding: 2rem;
+}
+.inputSect {
+  margin-top: 2rem;
+}
+
+.input1 {
+  height: 5rem;
+  font-size: larger;
+}

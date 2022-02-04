@@ -17,11 +17,11 @@ const DrinkModal = ({ modal, showModal, data, id }) => {
           <div className="minibg">
             <div className="text-img">
               <div>
-                <p data-testid="name">{newData[0].strDrink}</p>
-                <img src={newData[0].strDrinkThumb} alt="drink-img" />
+                <p data-testid="name" className="modalName">{newData[0].strDrink}</p>
+                <img className="modal-image" src={newData[0].strDrinkThumb} alt="drink-img" />
               </div>
-              <div>
-                <h3>Ingredients</h3>
+              <div className="ingredientSect">
+                <h3 className="modal-ingredients">Ingredients</h3>
                 {newData[0].strIngredient1 !== null && (
                   <div>
                     <p data-testid="ingredient">{newData[0].strIngredient1}</p>

@@ -7,9 +7,7 @@ function List({ image, name, idNumber, showModal }) {
         <img
           className="image-p"
           onClick={() => {
-            showModal(true,idNumber);
-            
-         
+            showModal(true, idNumber);
           }}
           src={image}
           alt={`${name} cocktails`}
@@ -17,8 +15,9 @@ function List({ image, name, idNumber, showModal }) {
       </li>
       <li
         onClick={() => {
-          showModal(true,idNumber);
+          showModal(true, idNumber);
         }}
+        className="drink_name"
       >
         {name}
       </li>
