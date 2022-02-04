@@ -1,14 +1,8 @@
-
-
 import "./modal.css";
 
 // This component generated and REMOVES the modal when you click on it.
 const DrinkModal = ({ modal, showModal, data, id }) => {
-
-  // if ia m hgrghhrhr
-
-
-  // This filters the array based on the imageid you clicked on 
+  // This filters the array based on the imageid you clicked on
   const newData = data.filter((drink) => id === drink.idDrink);
 
   // This removes the modal you opened when you want to close it.
@@ -16,6 +10,9 @@ const DrinkModal = ({ modal, showModal, data, id }) => {
     showModal(false);
   }
 
+  // if (test === 4) {
+  //   return 0;
+  // }
   return (
     <div data-testid="test-button">
       {modal === true && (
@@ -23,8 +20,14 @@ const DrinkModal = ({ modal, showModal, data, id }) => {
           <div className="minibg">
             <div className="text-img">
               <div>
-                <p data-testid="name" className="modalName">{newData[0].strDrink}</p>
-                <img className="modal-image" src={newData[0].strDrinkThumb} alt="drink-img" />
+                <p data-testid="name" className="modalName">
+                  {newData[0].strDrink}
+                </p>
+                <img
+                  className="modal-image"
+                  src={newData[0].strDrinkThumb}
+                  alt="drink-img"
+                />
               </div>
               <div className="ingredientSect">
                 <h3 className="modal-ingredients">Ingredients</h3>
