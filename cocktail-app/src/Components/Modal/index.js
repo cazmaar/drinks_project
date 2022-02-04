@@ -5,6 +5,8 @@ import "./modal.css";
 // This component generated and REMOVES the modal when you click on it.
 const DrinkModal = ({ modal, showModal, data, id }) => {
 
+  // if ia m hgrghhrhr
+
 
   // This filters the array based on the imageid you clicked on 
   const newData = data.filter((drink) => id === drink.idDrink);
