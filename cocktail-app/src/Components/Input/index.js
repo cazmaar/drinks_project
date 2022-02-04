@@ -36,6 +36,7 @@ function InputField({ handleData }) {
 
   useEffect(() => {
     handleData(fetcheddata);
+  
   }, [fetcheddata]);
 
   return (

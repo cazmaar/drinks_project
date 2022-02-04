@@ -1,11 +1,15 @@
-// import React, { useState, useEffect } from "react";
-// import { Modal, Button } from "antd";
+
 
 import "./modal.css";
 
+// This component generated and REMOVES the modal when you click on it.
 const DrinkModal = ({ modal, showModal, data, id }) => {
+
+
+  // This filters the array based on the imageid you clicked on 
   const newData = data.filter((drink) => id === drink.idDrink);
 
+  // This removes the modal you opened when you want to close it.
   function removeModal() {
     showModal(false);
   }

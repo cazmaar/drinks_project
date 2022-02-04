@@ -1,6 +1,9 @@
 import React from "react";
 import "./list.css";
+
+// List component to create each list to be displayed
 function List({ image, name, idNumber, showModal }) {
+  
   return (
     <div>
       <li>

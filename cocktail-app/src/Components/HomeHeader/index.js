@@ -2,6 +2,8 @@ import React from "react";
 import img from "../../images/img.png";
 import imgheader from "../../images/imgheader.png";
 import "./HomeHeader.css";
+
+// creates the header and also display the images.
 function HomeHeader() {
   return (
     <div>
