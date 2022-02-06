@@ -14,15 +14,28 @@
   font-size: larger;
 }
 
-@media only screen and (max-width: 496px) {
+@media only screen and (min-width: 300px) and (max-width:496px) {
   .inputSearch {
     width: 50%;
     margin-left: 4rem;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 496px) and (max-width:796px) {
   .inputSearch {
     width: 75%;
     margin-left: 4rem;
+  }
+}
+
+@media only screen and (min-width: 796px) and (max-width:1050px) {
+  .inputSearch {
+    width: 75%;
+    margin-left: 4rem;
+  }
+}
+@media only screen and (min-width: 1050px) and (max-width:1500px) {
+  .inputSearch {
+    width: 75%;
+    margin-left: 10rem;
   }
 }

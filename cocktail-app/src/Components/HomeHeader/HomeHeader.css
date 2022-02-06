@@ -19,7 +19,7 @@
   height: 5rem;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 300px) and (max-width:496px) {
   .nameImage {
     height: 3rem;
   }
@@ -42,7 +42,7 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 496px) and (max-width:796px) {
   .nameImage {
     height: 3rem;
   }
@@ -58,6 +58,28 @@
   }
   .welcome {
     font-size: large;
+    padding: 0.2rem;
+  }
+  .HomeHeader {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (min-width: 796px) and (max-width:1050px) {
+  .nameImage {
+    height: 5rem;
+  }
+  .img {
+    width: 2rem;
+    height: 4rem;
+  }
+  .img1 {
+    margin-left: 2rem;
+  }
+  .img2 {
+    margin-right: 2rem;
+  }
+  .welcome {
+    font-size:xx-large;
     padding: 0.2rem;
   }
   .HomeHeader {

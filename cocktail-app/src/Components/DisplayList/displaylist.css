@@ -7,7 +7,10 @@
   list-style-type: none;
 }
 
-@media only screen and (max-width: 480px) {
+
+
+
+@media only screen and (min-width: 300px) and (max-width:496px) {
   .drinks {
     margin-top: 0.3rem;
     margin-right: 10rem;
@@ -16,11 +19,22 @@
     grid-template-rows: repeat(2, 1fr);
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 496px) and (max-width:796px) {
   .drinks {
     margin-top: 0.3rem;
     margin-right: 8rem;
     margin-left: 1.7rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+
+@media only screen and (min-width: 796px) and (max-width:1050px) {
+  .drinks {
+    margin-top: 0.3rem;
+    margin-right: 8rem;
+    margin-left: 5rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }

@@ -54,7 +54,7 @@
 }
 
 
-@media only screen and (max-width:480px){
+@media only screen and (min-width:480px) and (max-width:768px){
 
 
   .calcbackground {
@@ -94,3 +94,5 @@ width: 10rem;
 
 }
 }
+
+@media only screen and (min-width: 796px) and (max-width:1024px) {}
