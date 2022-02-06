@@ -12,9 +12,55 @@
 
 .Nav {
   background: rgb(29, 1, 1);
+  width: 100%;
 }
 
-.nameImage{
- height: 5rem;
+.nameImage {
+  height: 5rem;
 }
 
+@media only screen and (max-width: 480px) {
+  .nameImage {
+    height: 3rem;
+  }
+  .img {
+    width: 2rem;
+    height: 4rem;
+  }
+  .img1 {
+    margin-left: 2rem;
+  }
+  .img2 {
+    margin-right: 2rem;
+  }
+  .welcome {
+    font-size: large;
+    padding: 0.2rem;
+  }
+  .HomeHeader {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .nameImage {
+    height: 3rem;
+  }
+  .img {
+    width: 2rem;
+    height: 4rem;
+  }
+  .img1 {
+    margin-left: 2rem;
+  }
+  .img2 {
+    margin-right: 2rem;
+  }
+  .welcome {
+    font-size: large;
+    padding: 0.2rem;
+  }
+  .HomeHeader {
+    margin-top: 1rem;
+  }
+}

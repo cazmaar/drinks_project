@@ -5,8 +5,8 @@ import "./list.css";
 function List({ image, name, idNumber, showModal }) {
   
   return (
-    <div>
-      <li>
+    <div className="list-section">
+      <li className="drink-modal">
         <img
           className="image-p"
           onClick={() => {

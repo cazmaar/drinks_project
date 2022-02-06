@@ -11,9 +11,9 @@ function HomeHeader() {
         <img className="nameImage" alt="img2" src={imgheader} />
       </div>
       <div className="HomeHeader">
-        <img className="img" src={img} alt="dd" />
+        <img className="img img1" src={img} alt="dd" />
         <h1 className="welcome">Welcome to TheCocktailDB</h1>
-        <img className="img" src={img} alt="dd" />
+        <img className="img img2" src={img} alt="dd" />
       </div>
     </div>
   );

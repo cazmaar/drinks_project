@@ -14,8 +14,8 @@ const DrinkModal = ({ modal, showModal, data, id }) => {
   //   return 0;
   // }
   return (
-    <div data-testid="test-button">
-      {modal === true && (
+  
+      modal === true && (
         <div className="calcbackground">
           <div className="minibg">
             <div className="text-img">
@@ -76,8 +76,8 @@ const DrinkModal = ({ modal, showModal, data, id }) => {
             </button>
           </div>
         </div>
-      )}
-    </div>
+      )
+  
   );
 };
 export default DrinkModal;

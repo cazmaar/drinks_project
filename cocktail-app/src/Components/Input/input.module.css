@@ -13,3 +13,16 @@
   height: 5rem;
   font-size: larger;
 }
+
+@media only screen and (max-width: 496px) {
+  .inputSearch {
+    width: 50%;
+    margin-left: 4rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .inputSearch {
+    width: 75%;
+    margin-left: 4rem;
+  }
+}
