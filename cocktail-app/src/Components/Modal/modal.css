@@ -97,11 +97,14 @@
     width: 70%;
   }
 
-
   .modal-image {
-    margin-left: 70%;
+    margin-left: 50%;
     width: 18rem;
     height: 18rem;
+  }
+
+  .modalName {
+  padding-left: 15rem;
   }
 
   .ingredientSect {
@@ -121,7 +124,7 @@
   .ingredients {
     font-size: large;
   }
-  .instructions-heading{
-     font-size: X-large;
+  .instructions-heading {
+    font-size: X-large;
   }
 }
