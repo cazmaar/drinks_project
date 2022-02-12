@@ -1,13 +1,17 @@
+  .list-section {
+    margin-left: 0rem;
+  }
+
 .image-p {
-  width: 18rem;
-  margin-top: 2rem;
+  width: 8rem;
+  margin-top: 1.5rem;
 }
 
 .drink_name {
-  font-size: 1rem;
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
   font-weight: bold;
   color: white;
-  margin-top: 2rem;
 }
 
 .welcome {
@@ -16,8 +20,7 @@
 
 .image-p {
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px;
 }
 
 .image-p:hover {
@@ -30,18 +33,10 @@
   }
 }
 
-@media only screen and (min-width: 300px) and (max-width:496px) {
-  .image-p {
-    width: 8rem;
-    margin-right: 1.5rem;
+@media only screen and (min-width: 641px) {
+  .list-section {
+    margin-left: 0.3rem;
   }
-
-  .drink_name {
-    font-size: 0.8rem;
-    margin-top: 0.5rem;
-  }
-}
-@media only screen and (min-width: 496px) and (max-width:796px) {
   .image-p {
     width: 12rem;
     margin-right: 1.5rem;
@@ -52,21 +47,11 @@
     margin-top: 0.5rem;
   }
 }
-@media only screen and (min-width: 796px) and (max-width:1050px) {
-  .image-p {
-    width: 12rem;
-    margin-right: 1.5rem;
-  }
 
-  .drink_name {
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
-  }
-}
-@media only screen and (min-width:1050px) and (max-width:1500px) {
+@media only screen and (min-width: 1008px) {
   .image-p {
-    width: 12rem;
-    margin-right: 1.5rem;
+    width: 16rem;
+    margin-right: 0;
   }
 
   .drink_name {

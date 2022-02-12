@@ -17,7 +17,7 @@ test("should have a drink name of orange since id=1", () => {
   expect(drinkName.innerHTML).toBe("Orange");
 });
 
-test("should have ingredient of salt since id=1", () => {
+test("should have inrgredient of salt since id=1", () => {
   render(<DrinkModal {...testProps} />);
   const drinkName = screen.getByTestId("ingredient");
   expect(drinkName.innerHTML).toBe("Salt");

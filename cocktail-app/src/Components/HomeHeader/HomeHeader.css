@@ -5,84 +5,51 @@
   margin-top: 1rem;
 }
 
-.img {
-  width: 5rem;
-  height: 6rem;
-}
-
 .Nav {
   background: rgb(29, 1, 1);
   width: 100%;
 }
-
 .nameImage {
-  height: 5rem;
+  height: 3rem;
+}
+.img {
+  width: 2rem;
+  height: 4rem;
+}
+.img1 {
+  margin-left: 2rem;
+}
+.img2 {
+  margin-right: 2rem;
+}
+.welcome {
+  font-size: large;
+  padding: 0.2rem;
+}
+.HomeHeader {
+  margin-top: 1rem;
 }
 
-@media only screen and (min-width: 300px) and (max-width:496px) {
-  .nameImage {
-    height: 3rem;
-  }
+@media only screen and (min-width: 641px) {
   .img {
-    width: 2rem;
-    height: 4rem;
+    width: 5rem;
+    height: 6rem;
   }
-  .img1 {
-    margin-left: 2rem;
-  }
-  .img2 {
-    margin-right: 2rem;
-  }
-  .welcome {
-    font-size: large;
-    padding: 0.2rem;
-  }
-  .HomeHeader {
-    margin-top: 1rem;
-  }
-}
 
-@media only screen and (min-width: 496px) and (max-width:796px) {
   .nameImage {
-    height: 3rem;
+    height: 7rem;
   }
-  .img {
-    width: 2rem;
-    height: 4rem;
-  }
-  .img1 {
-    margin-left: 2rem;
-  }
-  .img2 {
-    margin-right: 2rem;
-  }
+
   .welcome {
-    font-size: large;
-    padding: 0.2rem;
-  }
-  .HomeHeader {
-    margin-top: 1rem;
+    font-size: x-large;
   }
 }
-@media only screen and (min-width: 796px) and (max-width:1050px) {
+@media only screen and (min-width: 1008px) {
   .nameImage {
-    height: 5rem;
+    height: 7rem;
   }
-  .img {
-    width: 2rem;
-    height: 4rem;
-  }
-  .img1 {
-    margin-left: 2rem;
-  }
-  .img2 {
-    margin-right: 2rem;
-  }
+
   .welcome {
-    font-size:xx-large;
-    padding: 0.2rem;
-  }
-  .HomeHeader {
-    margin-top: 1rem;
+    font-size: xx-large;
   }
 }
