@@ -25,7 +25,7 @@ pipeline {
             stage("deploy"){
                 when{
                     expression{
-                        BRANCH_NAME=="main"
+                        BRANCH_NAME=="jenkins"
                     }
                 }
                 steps{
