@@ -1,0 +1,8 @@
+.git
+.dockerignore
+.env
+.gitignore
+Jenkinsfile
+README.md
+script.groovy
+Dockerfile
