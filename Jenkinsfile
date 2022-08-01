@@ -39,5 +39,8 @@ pipeline {
             success{
                 echo "it's live"
             }
+            failure{
+                echo "it failed"
+            }
         }
 }
