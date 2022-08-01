@@ -23,11 +23,6 @@ pipeline {
                 }
             }
             stage("deploy"){
-                when{
-                    expression{
-                        BRANCH_NAME=="jenkins"
-                    }
-                }
                 steps{
                     script{
                         gv.deploy()
