@@ -1,5 +1,5 @@
 def test(){
-    sh "npm ci"
+    sh "npm ci --production"
     sh "npm run test"
 }
 
