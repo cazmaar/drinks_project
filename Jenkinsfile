@@ -18,7 +18,7 @@ pipeline {
             stage("build"){
                 when{
                     expression{
-                        BRANCH_NAME=="multi_pipeline"
+                        BRANCH_NAME=="jenkins"
                     }
                 }
                 steps{
@@ -30,7 +30,7 @@ pipeline {
             stage("deploy"){
                  when{
                     expression{
-                        BRANCH_NAME=="multi_pipeline"
+                        BRANCH_NAME=="jenkins"
                     }
                 }
                 steps{
